@@ -5,8 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.sun.istack.internal.Nullable;
+import org.springframework.lang.Nullable;
 
+/*import com.sun.istack.internal.Nullable;
+*/
 @Entity
 @Table(name="VehiclePartner")
 public class VehiclePartner {
