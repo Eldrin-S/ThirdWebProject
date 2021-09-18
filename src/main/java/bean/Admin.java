@@ -3,6 +3,7 @@ package bean;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import org.postgresql.Driver;
 
 @Entity
 @Table(name="Admin")
